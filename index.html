@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ansaf Akhtar's Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
-    <p>Hello World!</p>
+    <!-- HEADER -->
+        <div class="header" id="home">
+            <div style="font-size: 3.1rem;" id="lib-name"> Ansaf Akhtar</div>
+            <div style="font-size: 18px;" id="lib-name">UI Designer/Developer</div>
+
+            <ul class="non-bullet">             
+                <li class="navigation-bar">
+                    <a href="#home" class="navigation-button">Home</a>
+                </li>
+                <li class="navigation-bar">
+                    <a href="#about" class="navigation-button">About</a>
+                </li>
+                <li class="navigation-bar">
+                    <a href="#projects" class="navigation-button">Projects</a>
+                </li>
+                <li class="navigation-bar">
+                    <a href="#blogs" class="navigation-button">Blogs</a>
+                </li>
+                <li class="navigation-bar">
+                    <a href="#contact" class="navigation-button">Contact Me</a>
+                </li>
+            </ul>
+        </div> 
+
+        <div style="background-color: black;">
+            <h1 class="main-title"> I'm Ansaf Akhtar </h1>
+            <p class="sub-title">Designer and Developer</p>
+            <img class="img-coding" src="./images/ansaf-image.png" alt="Coding Image">
+        </div>
+<!-- About Me -->
+        <div style="background-color: #f2e5cf;padding-bottom: 20px;" id="about">
+            <h2 align="center" style="margin: 0px 0px 0px 0px;padding-top: 20px;">About Me</h2>
+            <hr width="300px" align="center" color="black">
+            <p style="padding: 20px 50px 20px 50px" align="center">
+                I'm an <strong>ECE Engineer</strong> who loves to design and code. 
+                I like taking new problems and turning them into minimal and beautiful interface designs.
+                I also love coding and strive to write efficient code.
+                <br> Curently I'm working with TCS and learning web development at <strong>NEOGCAMP</strong>
+            </p>
+<!-- Skills -->
+            <hr width="220px" align="center" color="black">
+            <h2 align="center" style="margin: 0px 0px 0px 0px;">My Skills</h2>
+            <hr width="170px" align="center" color="black">
+
+            <ul class="non-bullet-skill" style="padding: 20px 50px 10px 50px">
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/adobe-illustrator.png" alt="">
+                </li>
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/adobe-photoshop-logo.png" alt="">
+                </li>
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/adobe-xd.png" alt="">
+                </li>
+            </ul>
+            <ul class="non-bullet-skill" style="padding: 0px 50px 10px 50px">
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/html-5.png" alt="">
+                </li>
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/css-3.png" alt="">
+                </li>
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/js.png" alt="">
+                </li>
+                <li class="list-skill">
+                    <img class="img-skills" src="./images/react.png" alt="">
+                </li>
+            </ul>
+         </div>
+
+ <!-- Projects         -->
+    <div class="container-center-secondary" style="background-color: #1c1b1a" id="projects">
+            <h1  align="center" style="margin: 0px 0px;color: white;padding-top: 20px;">Projects</h1>
+            <hr width="300px" align="center" color="white">
+
+        <div class="flex-container" style="padding: 25px 0px 40px 0px">
+            <div class="card">
+                <h3 class="project-text">Know Me? Quiz </h3>
+                <p class="project-text">It is a Basic command line interface (CLI) app made using Node js.</p>
+                <div align="center" style="padding-top: 25px;">
+                    <button class="button-project"><a class="link-hollow" href="https://repl.it/@AnsafAkhtar/KnowMe-Quiz?embed=1&output" target="_blank">Play Quiz</a> </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="project-text">General Awareness Quiz</h3>
+                <p class="project-text">Another CLI app to test your general awareness on some common topics.</p>
+                <div align="center" style="padding-top: 25px;">
+                    <button class="button-project"><a class="link-hollow" href="https://repl.it/@AnsafAkhtar/First-Lesson-CLI-Quiz?embed=1&output" target="_blank">Play Quiz</a> </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="project-text">New Projects Coming Soon</h3>
+                <p class="project-text">Stay connected with us. New projects are in development and coming soon.</p>
+                <div align="center" style="padding-top: 25px;">
+                    <button class="button-project"><a class="link-hollow" href="" target="_blank">Play Quiz</a> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Blogs -->
+    <div class="container-center-secondary" style="background-color: #f2e5cf" id="blogs">
+            <h1  align="center" style="margin: 0px 0px;color: #1c1b1a;padding-top: 20px;">Blogs</h1>
+            <hr width="300px" align="center" color="#1c1b1a">
+
+        <div class="flex-container" style="padding: 25px 0px 40px 0px">
+            <div class="card-blogs">
+                <h3 class="project-text-blog">Dummy Blog 1</h3>
+                <p class="project-text-blog">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <div align="center" style="padding: 15px 0px;">
+                    <button class="button-blog"><a class="link-primary" href="" target="_blank">Read</a> </button>
+                </div>
+            </div>
+
+            <div class="card-blogs">
+                <h3 class="project-text-blog">Dummy Blog 2</h3>
+                <p class="project-text-blog">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div align="center" style="padding: 15px 0px;">
+                    <button class="button-blog"><a class="link-primary" href="" target="_blank">Read</a> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="footer" id="contact">
+            <h2 align="center" style="color: white;background-color: #1c1b1a;margin: 0px 0px;padding: 20px 0px;">
+                Connect with me at</h2>
+
+                <div class="footer-social-icon">
+                    <a href="https://github.com" class="fa fa-github" target="_blank"></a>
+                    <a href="mailto:ansafakhtar239@gmail.com" class="fa fa-google" target="_blank"></a>
+                    <a href="https://www.linkedin.com" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+                </div>
+        </div> 
+
+
 </body>
 </html>
